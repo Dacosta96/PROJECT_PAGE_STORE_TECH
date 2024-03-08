@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+    body{
+      margin: 0;
+      background-color: azure;
+      font-family: 'Quicksand', sans-serif;}
+    :root {
+      --black:#000000;
+      --white: #FFFFFF;
+      --very-light-pink: #C7C7C7;
+      --text-input-field: #F7F7F7;
+      --dark: #232830;
+      --hospital-green: #58b965;
+      --distance: 16px
+     }
+     .cards{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 240px);
+      gap: 26px;
+      place-content: center;
+     }
+     .cards-product{
+      width: 240px;
+     }
+     .cards-product img{
+      width:100%;
+      height:240px;
+      border-radius: 15px;
+      object-fit: cover;
+     }
+     .info-card{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     }
+     .info-card figure{
+      margin: 0;
+    }
+    .info-card figure img{
+      width: 40px;
+      height: 40px;
+    }
+    .info-card div p:nth-child(1){
+      font-weight: bold;
+      font-size: var(--distance);
+      margin-top: var(--distance);
+      margin-bottom: 4px;
+    }
+    .info-card div p:nth-child(2){
+      font-size: var(--distance);
+      margin-top: 0;
+      margin-bottom: 0;
+      color: var(--dark);
+    }
+    @media (max-width: 640px){
+      .cards{
+      grid-template-columns: repeat(auto-fill, 140px);
+     }
+     .cards-product{
+      width: 140px;
+     }
+     .cards-product img{
+      width:140px;
+      height:140px;
+      
+     }
+    }
+    </style>
+</head>
+<body>
+  <section class="main-container">
+    <div class="cards">
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div class="info-card">
+          <div>
+            <p>precio</p>
+            <p>descripcion</p>
+          </div>
+          <figure>
+            <img src="./cesta_logo.png" alt="logo">
+          </figure>
+        </div>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+      <div class="cards-product">
+        <img src="https://images.pexels.com/photos/16366096/pexels-photo-16366096/free-photo-of-close-up-of-an-analog-camera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="product">
+        <div>
+          <p>precio</p>
+          <p>descripcion</p>
+        </div>
+        <figure>
+          <img src="" alt="logo">
+        </figure>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>
