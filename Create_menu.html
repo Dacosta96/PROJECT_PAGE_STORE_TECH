@@ -23,36 +23,36 @@
      .container{
       width: 100px;
       height: auto;
-      border: 1px solid var(--very-light-pink);
+      border: 1px solid var(--very-light-pink); /* color borde */
       border-radius: 6px;
-      padding: 20px 20px 0 20px;
+      padding: 20px 20px 0 20px; /* esácio entre contenido y borde */
      }
      .container ul{
-      list-style: none;
+      list-style: none; /* quita viñetas de la lista */
       padding: 0;
       margin: 0;
      }
 
-     .container ul li {
+     .container ul li { /* alinea textos de la lista */
       text-align: end;
     }
-    .container ul li:nth-child(1),
+    .container ul li:nth-child(1), /* aplicar cambios en el 1 y 2 elemento */
     .desktop-menu ul li:nth-child(2) {
       font-weight: bold;
     }
-    .container ul li:last-child {
+    .container ul li:last-child { /* alinea y quita bordes del ultimo elemento */
       padding-top: 20px;
       border-top: 1px solid var(--very-light-pink);
     }
-    .container ul li:last-child a {
+    .container ul li:last-child a { /* cambia el color y tamaño del texto del ultimo elemento*/
       color: var(--hospital-green);
       font-size: var(--sm);
     }
-    .container ul li a {
+    .container ul li a { /* modifica los elemntos a que estan dentro de li*/
       color: var(--back);
-      text-decoration: none;
+      text-decoration: none; /* quita linea subrayado */
       margin-bottom: 20px;
-      display: inline-block;
+      display: inline-block; /* convertir elemento en bloque para aplicar bordes */
     }
     </style>
 </head>
